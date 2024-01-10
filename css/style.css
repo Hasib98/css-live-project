@@ -4,23 +4,28 @@
 }
 
 .round-cornerbox {
-    display: inline-block;
+    display: flex;
     height: 500px;
     width: 50%;
     background-color: rgb(225, 76, 50);
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 50px;
     padding: 50px;
-    /* border-radius: 20%; */
-    /* border: 6px black dashed; */
-    /* position: relative; */
+    border: 50px solid black;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    
 
 }
 
 .round-cornerbox .inside-box-level-1{
-    display: inline-block;
     height: 50px;
     width: 50px;
+    margin: 50px;
     background-color: rgb(211, 241, 118);
+    border: 1px solid black;
+    text-align: center;
 
 }
