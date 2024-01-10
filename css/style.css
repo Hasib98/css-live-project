@@ -4,37 +4,12 @@
 }
 body{
     background-color: rgb(227, 208, 208);
+    position: absolute;
+    justify-content: center;
 }
-
-.round-cornerbox {
-    display: flex;
-    height: 100px;
-    width: 50%;
-    background-color: rgb(225, 76, 50);
-    /* box-sizing: border-box; */
-    margin: 20px;
-    padding: 50px;
-    justify-content: space-between ;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    
-
-}
-
-.round-cornerbox .inside-box-level-1{
-    height: 50px;
-    width: 50px;
-    margin: 50px;
-    background-color: rgb(211, 241, 118);
-    border: 1px solid black;
-    text-align: center;
-    align-content: center;
-
-}
-
 
 .round-cornerbox-2 {
+
     display: flex;
     height: 300px;
     width: 300px;
