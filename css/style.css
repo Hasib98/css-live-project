@@ -4,7 +4,7 @@
 }
 body{
     background-color: rgb(227, 208, 208);
-    position: absolute;
+    display: flex;
     justify-content: center;
 }
 
