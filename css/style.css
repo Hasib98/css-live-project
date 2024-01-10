@@ -1,10 +1,26 @@
 *{
+    margin: 0;
     background-color: rgb(227, 208, 208);
 }
 
 .round-cornerbox {
-    height: 1000px;
-    width: 1000px;
-    background-color: cyan;
+    display: inline-block;
+    height: 500px;
+    width: 50%;
+    background-color: rgb(225, 76, 50);
+    box-sizing: border-box;
+    margin: 50px;
+    padding: 50px;
+    /* border-radius: 20%; */
+    /* border: 6px black dashed; */
+    /* position: relative; */
+
+}
+
+.round-cornerbox .inside-box-level-1{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(211, 241, 118);
 
 }
