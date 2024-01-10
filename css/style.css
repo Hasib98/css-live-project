@@ -36,16 +36,15 @@ body{
 
 .round-cornerbox-2 {
     display: flex;
-    height: 100px;
-    width: 50%;
+    height: 300px;
+    width: 300px;
     background-color: rgb(225, 76, 50);
-    border: 5px solid black;
+    /* border: 5px solid black; */
     margin: 50px;
     padding: 5px;
-    justify-content: center ;
     flex-wrap: wrap;
     align-items: center;
-    align-content: center;
+    justify-content: center ;
     
 
 }
@@ -55,12 +54,17 @@ body{
     width: 100px;
     margin: 0px;
     background-color: rgb(211, 241, 118);
-    border: 1px solid black;
+    /* border: 1px solid black; */
     align-items: center;
     justify-content: center;
 }
 
 .round-cornerbox-2 .inside-box-level-2 > .text-inbox{
-    /* display: inline-block; */
+   
     color: blueviolet;
+}
+
+.round-cornerbox-2 .inside-box-level-2 > .box-inbox{
+  
+    color: rgb(121, 87, 10);
 }
