@@ -7,8 +7,16 @@ body {
     background-color: rgb(232, 177, 50);
     /* display: flex; */
 }
+.section-1{
+    background-color: red;
+}
+
+.section-2{
+    background-color: purple;
+}
 
 .round-cornerbox{
+    display: flex;
     height: 200px;
     width: 200px;
     /* background-color: #6fb3e7; */
@@ -31,7 +39,7 @@ body {
     width: 156px;
     height: 60px;
     color: whitesmoke;
-    margin: auto;
+    margin-top: auto;
     position: absolute;
     top: 5px;
     text-align: center;
@@ -52,6 +60,8 @@ background-color: #000;
 
 .round-cornerbox > .text-box {
     width: 156px;
+    box-sizing: border-box;
+    margin: 10px;
     color: whitesmoke;
     position: absolute;
     font-size: 90%;
