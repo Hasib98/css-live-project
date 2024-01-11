@@ -17,10 +17,10 @@ body{
     /* border: 5px solid black; */
     margin: 50px;
     padding: 5px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: center ;
-    
+    flex-shrink: 0;
 
 }
 .round-cornerbox-2 .inside-box-level-2{
