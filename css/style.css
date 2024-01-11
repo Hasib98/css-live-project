@@ -1,59 +1,64 @@
 * {
-    margin: 0;
+    margin: 0 auto;
 
 }
 
 body {
-    background-color: rgb(227, 208, 208);
+    background-color: rgb(83, 96, 243);
     display: flex;
-    justify-content: center;
 }
 
-.round-cornerbox-2 {
+.round-cornerbox{
+    height: 200px;
+    width: 200px;
+    /* background-color: #6fb3e7; */
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 16px;
 
-    display: flex;
-    height: 350px;
-    width: 350px;
-    background-color: rgb(236, 94, 68);
-    /* border: 5px solid black; */
-    margin: 50px;
-    padding: 5px;
-    /* flex-wrap: wrap; */
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
+    padding: 20px;
+    position: relative;
+    top: 50px;
+
+    /* text-align: justify; */
 
 }
+.round-cornerbox > .title-box {
+    width: 156px;
+    height: 60px;
+    color: whitesmoke;
+    position: absolute;
+    top: 5px;
+    text-align: center;
+    font-size: 70%;
+    text-shadow: 8px 8px 10px rgba(0,0,0,0.69);
 
-/* .round-cornerbox-2 .inside-box-level-2 {
-    display: flex;
-    height: 150px;
-    width: 150px;
-    margin: 0px;
-    background-color: rgb(211, 241, 118);
-    align-items: center;
-    justify-content: center;
+}
+::selection {
+    background-color: rgba(99, 234, 75, 0.3);
 }
 
-.round-cornerbox-2 .inside-box-level-2 > .text-inbox {
+.round-cornerbox > .text-box {
+    width: 156px;
+    color: whitesmoke;
+    position: absolute;
+    font-size: 90%;
+    bottom: 10px;
+    line-height: 1;
+    text-align: justify;
+    text-shadow: 8px 8px 10px rgba(0,0,0,0.69);
 
-    color: blueviolet;
-    font-size: 200%;
+}
+ .round-cornerbox > .text-box::selection {
+    background-color: rgba(234, 75, 205, 0.3);
+} 
+
+
+/* @media screen and (max-width: 1080px) {
+
+
 } */
-
-
-@media screen and (max-width: 1080px) {
-    body {
-        background-color: lightgreen;
-    }
-
-    .round-cornerbox-2 {
-
-    
-        background-color: rgb(220, 153, 141);
-        display: block;
-     
-    
-    }
-
-}
