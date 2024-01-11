@@ -4,8 +4,8 @@
 }
 
 body {
-    background-color: rgb(83, 96, 243);
-    display: flex;
+    background-color: rgb(232, 177, 50);
+    /* display: flex; */
 }
 
 .round-cornerbox{
@@ -41,6 +41,13 @@ body {
 }
 ::selection {
     background-color: rgba(99, 234, 75, 0.3);
+}
+
+.round-cornerbox > .line-under-header{
+/* margin: auto; */
+height: 1px;
+background-color: #000;
+
 }
 
 .round-cornerbox > .text-box {
