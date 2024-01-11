@@ -25,8 +25,8 @@ body{
 }
 .round-cornerbox-2 .inside-box-level-2{
     display: flex;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     margin: 0px;
     background-color: rgb(211, 241, 118);
     /* border: 1px solid black; */
@@ -37,6 +37,7 @@ body{
 .round-cornerbox-2 .inside-box-level-2 > .text-inbox{
    
     color: blueviolet;
+    font-size: 500%;
 }
 
 .round-cornerbox-2 .inside-box-level-2 > .box-inbox{
