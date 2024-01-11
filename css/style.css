@@ -31,10 +31,11 @@ body {
     width: 156px;
     height: 60px;
     color: whitesmoke;
+    margin: auto;
     position: absolute;
     top: 5px;
     text-align: center;
-    font-size: 70%;
+    font-size: 10px;
     text-shadow: 8px 8px 10px rgba(0,0,0,0.69);
 
 }
