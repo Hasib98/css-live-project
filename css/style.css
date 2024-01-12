@@ -1,82 +1,71 @@
 * {
-    margin: 0 auto;
-
+    margin: 0;
+    padding: 0;
+    font-family: 'Lemon', serif;
 }
 
 body {
-    background-color: rgb(232, 177, 50);
-    /* display: flex; */
-}
-.section-1{
-    background-color: red;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), #009688); */
+    /* background-color: palegreen; */
 }
 
-.section-2{
-    background-color: purple;
+.banner {
+    width: auto;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #009688),url("/images/banner.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-.round-cornerbox{
-    display: flex;
-    height: 200px;
-    width: 200px;
-    /* background-color: #6fb3e7; */
-    background: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    box-sizing: border-box;
-    border-radius: 16px;
 
-    padding: 20px;
-    position: relative;
-    top: 50px;
+.banner > .logo {
+    height: 5%;
+    width: 10%;
+    background:url("/images/logo.png");
+    background-position: center;
+    background-size: cover;
 
-    /* text-align: justify; */
-
-}
-.round-cornerbox > .title-box {
-    width: 156px;
-    height: 60px;
-    color: whitesmoke;
-    margin-top: auto;
     position: absolute;
-    top: 5px;
+    top: 5%;
+    left: 10%;
+}
+.banner-text{
     text-align: center;
-    font-size: 10px;
-    text-shadow: 8px 8px 10px rgba(0,0,0,0.69);
-
+    color: white;
+    padding: 180px 0 0 0;
 }
-::selection {
-    background-color: rgba(99, 234, 75, 0.3);
+.banner-text > h1 {
+    font-size: 130px;
+}
+.banner-text > p {
+    font-size: 20px;
+    font-style: italic;
+}
+.banner-btn {
+    margin: 70px auto 0;
+}
+.banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: white;
+    border: 0.5px solid white;
+    transition: 0.5s;
+}
+.banner-btn a span{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: white;
+    border: 0.5px solid white;
+    transition: 0.5s;
 }
 
-.round-cornerbox > .line-under-header{
-/* margin: auto; */
-height: 1px;
-background-color: #000;
-
+.banner-btn a:hover{
+    color: black;
+    background-color: white;
 }
-
-.round-cornerbox > .text-box {
-    width: 156px;
-    box-sizing: border-box;
-    margin: 10px;
-    color: whitesmoke;
-    position: absolute;
-    font-size: 90%;
-    bottom: 10px;
-    line-height: 1;
-    text-align: justify;
-    text-shadow: 8px 8px 10px rgba(0,0,0,0.69);
-
-}
- .round-cornerbox > .text-box::selection {
-    background-color: rgba(234, 75, 205, 0.3);
-} 
-
-
-/* @media screen and (max-width: 1080px) {
-
-
-} */
