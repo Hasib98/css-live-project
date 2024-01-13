@@ -52,20 +52,34 @@ body {
     padding: 12px 0;
     color: white;
     border: 0.5px solid white;
-    transition: 0.5s;
+    /* transition: 0.5s; */
 
     position: relative;
+    z-index: 1;
+    transition: color 0.5s ;
 }
+
 .banner-btn a span{
 
     position: absolute;
+    top: 0;
+    left: 0;
     height: 100%;
-    width: 100%;
+    width: 0%;
     background-color: #fff;
     border: 0.5px solid white;
+    z-index: -1;
+    transition: 0.5s;
+    visibility: hidden;
 }
 
-.banner-btn a span:hover{
-    color: white;
-    background-color: black;
+.banner-btn a:hover span{
+    visibility: visible;
+    width: 100%;
+}
+
+.banner-btn a:hover{
+    color: black;
+    /* z-index: 1; */
+    
 }
