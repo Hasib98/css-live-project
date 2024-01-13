@@ -37,10 +37,17 @@ body {
 .banner-text > h1 {
     font-size: 130px;
 }
+.banner-text > h1::selection {
+    background-color: rgba(234, 75, 205, 0.3);
+} 
 .banner-text > p {
     font-size: 20px;
     font-style: italic;
 }
+
+.banner-text > p::selection {
+    background-color: rgba(231, 52, 16, 0.633);
+} 
 .banner-btn {
     margin: 70px auto 0;
 }
